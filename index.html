@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+<head>
+<meta charset="UTF-8">
+<title>Moda e Variância</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div id="app">
+    <div>
+      <textarea v-model="input" placeholder="Insira a sequência aqui"></textarea>
+      <h6>*Separe os números da sequência com uma vírgula</h6>
+      <button value="Calcular" @click="calculate(this.form)" class="btn-right">Calcular</button><br/>
+        <br/><br/>
+      <table align="center">
+      <tr>
+        <td><strong>Moda</strong></td>
+        <td><input type="text" v-model="mode" class="cal" readonly></td>
+      </tr>
+      <tr>
+        <td><strong>Variância</strong></td>
+        <td><input type="text" v-model="range" class="cal" readonly></td>
+      </tr>
+    </table>
+
+    <br/><br/><br/><br/><br/><br/><br/>
+    <button onClick="window.location.reload();">Limpar</button>
+
+  </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17-beta.0/vue.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

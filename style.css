@@ -1,0 +1,17 @@
+*{
+font-family: Arial;
+text-align: center;
+align-items: center;
+align-content: center;
+position: relative;
+position: relative;
+cursor: default;
+}
+
+button{
+    cursor:pointer;
+}
+
+textarea{
+    cursor:text;
+}
